@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+.container__botao {
+    display: none;
+}
+
 .cabecalho__menu-hamburguer {
     display: inline-block;
     width: 48px;
@@ -32,6 +36,25 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vw;
+}
+
+.lista-menu__titulo, .lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.lista-menu__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
 
 .cabecalho__container__imagem {
