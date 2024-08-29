@@ -1,3 +1,16 @@
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.cabecalho__container {
+    display: flex;
+    align-items: center;
+}
+
 .cabecalho__menu-hamburguer {
     display: inline-block;
     width: 48px;
@@ -7,16 +20,18 @@
     background-repeat: no-repeat;
 }
 
-.cabecalho {
-    background-color: var(--branco);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* :checked pseudoclasse
+   ~ combinador css 
+   se o conteiner botao tiver checked, ele procura o item lista-menu que vem depois dele */
+.container__botao:checked~.lista-menu {
+    display: block;
 }
 
-.cabecalho__container {
-    display: flex;
-    align-items: center;
+.lista-menu {
+    /* desaparece e não ocupa espaço */
+    display: none;
+    position: absolute;
+    top: 100%;
 }
 
 .cabecalho__container__imagem {
