@@ -69,5 +69,5 @@
     padding: 1em 2.2em;
     color: var(--branco);
     font-weight: 700;
-    direction: none;
+    text-decoration: none;
 }
