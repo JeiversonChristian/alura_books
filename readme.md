@@ -1,8 +1,10 @@
 # Alura Books
 ### Projeto baseado no curso da Alura, com metodologia Mobile First!
 
-Projeto em Andamento
+![Imagem ilustrativa do projeto](img/propaganda.png)
 
-[link do figma para guiar projeto](https://www.figma.com/design/sSMbIqKaGBd66Y8roxTk2p/AluraBooks-%7C-Responsividade-com-Mobile-First?node-id=37-94&node-type=CANVAS&t=u8NmrxU3Ab5PxIo7-0)
+[link com GitHub Pages](https://jeiversonchristian.github.io/alura_books/)
 
-[link com github pages](https://jeiversonchristian.github.io/alura_books/)
+[link com Vercel](https://alura-books-blush-six.vercel.app/)
+
+Projeto finalizado!
